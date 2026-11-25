@@ -1,0 +1,11 @@
+# Sprint 9 teslim kontrolü
+- [ ] Atlas bağlantısı ve npm run seed (6 etkinlik)
+- [ ] npm run dev
+- [ ] npm test
+- [ ] Newman kuruldu
+- [ ] Hocanın resmi Postman koleksiyonu içe aktarıldı
+- [ ] 18 istek, 45 test, 0 hata gerçek çalıştırmada doğrulandı
+- [ ] requests/kampus-api.json resmi koleksiyonla değiştirildi
+- [ ] requests/run-results.json gerçek Runner sonucundan kaydedildi
+- [ ] .env ve node_modules Git dışında
+- [ ] Adım adım commit ve push
