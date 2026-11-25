@@ -1,0 +1,40 @@
+@media (max-width: 850px) {
+  .etkinlik-listesi {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .detay-karti {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .header-icerik,
+  main,
+  .footer-icerik {
+    width: min(100% - 1rem, 1100px);
+  }
+
+  .etkinlik-listesi,
+  .filtre {
+    grid-template-columns: 1fr;
+  }
+
+  .site-nav {
+    gap: 0.3rem;
+  }
+
+  .site-nav a {
+    padding: 0.4rem 0.55rem;
+    font-size: 0.95rem;
+  }
+
+  .detay-karti {
+    padding: 0.7rem;
+  }
+
+  .afis-gorsel {
+    max-height: 360px;
+  }
+}
+

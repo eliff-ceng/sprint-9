@@ -1,0 +1,88 @@
+/* Sprint 6: Router, Context, yönetim ve form doğrulama */
+:root {
+  --renk-ana: var(--ana-renk);
+  --renk-hata: #d63838;
+  --bosluk-s: 0.55rem;
+  --kose: 0.55rem;
+}
+
+.sayfa-aksiyon {
+  margin-top: 1.2rem;
+}
+
+.hata-metni {
+  color: var(--renk-hata);
+  font-size: 0.9rem;
+}
+
+input[aria-invalid="true"],
+select[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+  border-color: var(--renk-hata);
+  background: #fff7f7;
+}
+
+.basari-kutusu {
+  background: var(--basari-zemin);
+  color: var(--basari);
+  border: 1px solid #93c9a8;
+}
+
+.tablo {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--kart);
+  border: 1px solid var(--kenar);
+}
+
+.tablo th,
+.tablo td {
+  border: 1px solid var(--kenar);
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.tablo th {
+  background: var(--renk-ana);
+  color: #fff;
+}
+
+.islemler {
+  display: flex;
+  gap: var(--bosluk-s);
+  flex-wrap: wrap;
+}
+
+.buton-sil {
+  background: var(--renk-hata);
+}
+
+.buton-sil:hover {
+  background: #a92727;
+}
+
+.auth-kart,
+.bulunamadi {
+  max-width: 620px;
+}
+
+.auth-kart form {
+  max-width: 520px;
+}
+
+.auth-buton {
+  margin-top: 0.25rem;
+}
+
+.auth-linkler {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.auth-linkler a {
+  color: var(--ana-koyu);
+}
+

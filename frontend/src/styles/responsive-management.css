@@ -1,0 +1,42 @@
+@media (max-width: 690px) {
+  .tablo thead {
+    display: none;
+  }
+
+  .tablo,
+  .tablo tbody,
+  .tablo tr,
+  .tablo td {
+    display: block;
+    width: 100%;
+  }
+
+  .tablo {
+    border: 0;
+    background: transparent;
+  }
+
+  .tablo tr {
+    margin-bottom: 0.8rem;
+    border: 1px solid var(--kenar);
+    border-radius: var(--kose);
+    background: var(--kart);
+    padding: 0.7rem;
+  }
+
+  .tablo td {
+    border: 0;
+    padding: 0.3rem 0;
+  }
+
+  .tablo td[data-baslik]::before {
+    content: attr(data-baslik) ": ";
+    font-weight: 700;
+  }
+
+  .tablo td.islemler {
+    display: flex;
+    gap: var(--bosluk-s);
+    padding-top: 0.65rem;
+  }
+}

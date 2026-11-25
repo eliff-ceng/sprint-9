@@ -1,0 +1,6 @@
+/* Aynı görünüm, sorumluluğuna göre ayrılmış stil dosyaları. */
+@import url("./styles/theme-layout.css");
+@import url("./styles/events-and-forms.css");
+@import url("./styles/responsive-events.css");
+@import url("./styles/management.css");
+@import url("./styles/responsive-management.css");

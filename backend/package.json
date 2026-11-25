@@ -1,0 +1,19 @@
+{
+  "name": "kampus-etkinlikleri-backend",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sprint 9 - MongoDB CRUD ve sorgular",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^9.12.2"
+  }
+}
